@@ -1,4 +1,3 @@
-// pages/AddSchool.jsx
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 import styles from './Addschool.module.css';
