@@ -1,4 +1,3 @@
-/* styles/ShowSchool.module.css */
  
 .container {
     text-align: center;
@@ -80,13 +79,13 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgb(96, 237, 204);
-    transition: transform 0.3s; /* Add a transition effect for a smooth change */
+    transition: transform 0.3s; 
   
   }
   
   .schoolCard:hover {
-    transform: scale(1.05); /* Increase the size on hover */
-    box-shadow: 5px 5px 15px rgb(58, 5, 5); /* Adjust the box-shadow on hover */
+    transform: scale(1.05); 
+    box-shadow: 5px 5px 15px rgb(58, 5, 5); 
     border-radius: 30px; 
   }
   .schoolCard img {
