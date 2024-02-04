@@ -1,3 +1,4 @@
+------------------------------------------------------------------------------------------------------------------------------------
 Summary: 
 You will be designing mini-project using Next js and MySQL consisting of two pages: one page to 
 input and store the data of schools, the other page to fetch and display the data of the schools. 
@@ -14,3 +15,4 @@ Description: You have to create a page that shows the list of schools in the dat
 ecommerce website shows products. Only the School’s name, address, city and image needs to be 
 visible here.The page should be responsive 
 (work on both phones and desktop). 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
