@@ -1,4 +1,3 @@
-// pages/api/insertData.js
 import pool from '../../../config/db';
 import multer from 'multer';
 import path from 'path';
