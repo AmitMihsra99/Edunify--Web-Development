@@ -1,0 +1,134 @@
+/* styles/ShowSchool.module.css */
+ 
+.container {
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(240, 240, 239);
+    
+  }
+.header {
+    margin-top:-12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    box-shadow: 5px 5px 10px rgb(34, 231, 185);
+
+  }
+.link{
+ text-decoration: none;
+ font-weight: 600;
+ background-color: black;
+ color: whitesmoke;
+ padding: 15px 20px;
+ border-radius: 25px;
+ border: none;
+ box-shadow: 5px 5px 10px rgb(14, 1, 1);
+}
+.link:hover{
+    background-color:blueviolet;
+    color:black
+}
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+.searchBar input {
+    margin-right: 8px;
+    width: 300px;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-style:normal;
+    border-radius: 20px;
+    background-color:rgb(240, 240, 245);
+    border: 2px solid rgb(80, 80, 0);
+    
+}
+.searchBar input:hover {
+    background-color: rgb(236, 228, 228);
+    
+}
+ .btn{
+    margin: 5px;
+    padding: 20px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: blueviolet;
+    color: blanchedalmond;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px rgb(14, 1, 1);
+ }  
+
+ .btn:hover{
+    background-color: black;
+    color: bisque;
+ }
+  .schoolList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color:whitesmoke;
+    border-radius: 15px;
+  }
+  
+  .schoolCard {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(96, 237, 204);
+    transition: transform 0.3s; /* Add a transition effect for a smooth change */
+  
+  }
+  
+  .schoolCard:hover {
+    transform: scale(1.05); /* Increase the size on hover */
+    box-shadow: 5px 5px 15px rgb(58, 5, 5); /* Adjust the box-shadow on hover */
+    border-radius: 30px; 
+  }
+  .schoolCard img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    border-radius: 25px;
+  }
+  
+  .schoolCard:hover img {
+    /* Increase the size on hover */
+    border-radius: 0px;
+  }
+  
+  .schoolInfo {
+    padding: 10px;
+    text-align:center;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    .searchBar {
+      margin-top: 10px;
+    }
+  
+    .schoolCard img {
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .schoolList {
+      grid-template-columns: 1fr;
+    }
+  
+    .schoolCard img {
+      height: 200px;
+    }
+  }
+  
