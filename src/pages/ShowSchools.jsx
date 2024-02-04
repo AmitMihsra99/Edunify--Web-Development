@@ -48,7 +48,7 @@ const ShowSchools = () => {
           <div key={school.id} className={styles.schoolCard}>
             {/* Updated img tag */}
             <img
-              src={`/schoolImages/${school.imageName}`} // Construct the image URL using the image name
+              src={`/schoolImages/${school.imageName}`} 
               alt={school.name}
               onError={(e) => console.error("Error loading image:", e)}
             />
